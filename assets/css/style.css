@@ -1,6 +1,10 @@
-#myLogo{
-  width: 10em;
-  height: 10em;
+#siteTitle{
   border: 1px solid black;
-  margin: 5px
+  background: rgb(31, 30, 30);
+  color: rgb(214, 214, 214);
+  max-width: 33.3%;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+}
+#titleBox{
 }
