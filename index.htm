@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
                          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"  
                          crossorigin="anonymous">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/d6b06c1a00.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -38,6 +40,12 @@
                   <h5 class="card-title">Austin Fletcher</h5>
                   <p class="card-text">I am a Junior full stack web develper looking to get into the indrusty. I have experice in HTML, CSS, Javascript and node.
                                    People who know me would say I am a devoted hard working individual who strives to create the best finished project.</p>
+                <hr />
+                <!-- Social media icons -->
+                <a class="btn" role="button" target="_blank" href="https://www.linkedin.com/in/austin-fletcher-676135104/"><span><i style="color:#007bb5" class="fab fa-linkedin fa-3x"></i></span></a>
+                <a class="btn" role="button" target="_blank" href="https://github.com/AFletch95"><span><i style="color:#000000" class="fab fa-github fa-3x"></i></span></a>
+                <a class="btn" role="button" target="_blank" href="https://drive.google.com/file/d/1Y_D4udZj_pM7sc8Lv05rtXc41-cUeZiK/view?usp=sharing"><span><i style="color:#cb2027" class="fas fa-file-pdf fa-3x"></i></span></a>
+
                 </div>
                 <div class="col-sm-12 col-md-6">
                   <image id="aboutMeImg" class="img-thumbnail" src="./assets/images/rustyandi.jpg" alt="Austin Fletcher thubnail" />
@@ -60,8 +68,26 @@
       <div class="container text-center">
         <div class="row card border-dark bg-light mb-3 text-left">
             <div class="card-header bg-success text-dark">Contact Me</div>
-              <div class="row card-body">
+              <div class="card-body row">
+                  <form class="container-fluid">
+                      <div class="form-group row">
+                          <div class="col-sm-12 col-md-6">
+                        <label for="contactName">Name</label>
+                        <input type="password" class="form-control" id="contactName" placeholder="First and last name">
 
+
+                        <label for="contactEmail">Email address</label>
+                        <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small> 
+                      </div>
+                        <div class="col-sm-12 col-md-6">
+                        <label for="Textarea1">Message</label>
+                        <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                        <br />
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                      </div>
+                    </form>
              </div>
           </div>
       </div>
@@ -77,24 +103,6 @@
   </a>
 </div>
 
-
-<!-- ======================== -->
-
-  <!-- <div class="container text-center">
-    <div class="row card border-dark bg-light mb-3 text-left">
-        <div class="card-header bg-info text-dark">About me</div>
-          <div class="row card-body">
-            <div class="col-sm-12 col-md-6">
-              <h5 class="card-title">Austin Fletcher</h5>
-              <p class="card-text">I am a Junior full stack web develper looking to get into the indrusty. I have experice in HTML, CSS, Javascript and node.
-                               People who know me would say I am a devoted hard working individual who strives to create the best finished project.</p>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <image src="#" alt="Austin Fletcher thubnail" />
-            </div>
-         </div>
-      </div>
-  </div> -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
