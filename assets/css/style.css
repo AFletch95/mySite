@@ -4,12 +4,14 @@ padding-bottom: 2rem;
 background-image: url("../images./my_site_jumbotron_background.JPG");
 background-size: 100%;
 background-repeat: no-repeat;
+background-color: rgba(0, 0, 0, 0)
 }
 body{
   background: rgb(0, 0, 0);
   background-image: url("../images./my_site_jumbotron_background.JPG");
 background-size: 100%;
 background-repeat: no-repeat;
+
 }
 #aboutMeImg{
   width: 100%;
@@ -17,4 +19,13 @@ background-repeat: no-repeat;
 }
 #travelsaurImg{
   /* background-size: 25%; */
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
